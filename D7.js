@@ -34,10 +34,26 @@ console.log(fortuna)
 /* ESERCIZIO 4 (forEach)
   Scrivi una funzione per sommare i numeri contenuti in un array
 */
+const quadro = function(){
+  let sum = 0
+  arrayCoso.forEach((num ) =>{
+    sum += num 
+  })
+   return sum
+}
+console.log(quadro(arrayCoso))
 
 /* ESERCIZIO 5 (reduce)
   Scrivi una funzione per sommare i numeri contenuti in un array
 */
+const quadretto = function(){
+  let sum = 0
+  arrayCoso.reduce((num ) =>{
+    sum += num 
+  })
+   return sum
+}
+console.log(quadro(arrayCoso))
 
 /* ESERCIZIO 6 (map)
   Scrivi una funzione che, dato un array di soli numeri e un numero n come parametri, ritorni un secondo array con tutti i valori del precedente incrementati di n
