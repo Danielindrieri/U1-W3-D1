@@ -4,7 +4,7 @@ console.log('ciao')
   prima e gli ultimi 3 della seconda. Converti la stringa risultante in maiuscolo e mostrala con un console.log().
 */
 const fusione = (n1, n2) => {
-  const primoAnimale = n1.slice(0.2)
+  const primoAnimale = n1.slice(0,2)
   const secondoAnimale = n2.slice(-3)
   const result = (primoAnimale + secondoAnimale).toUpperCase()
   console.log(result)
